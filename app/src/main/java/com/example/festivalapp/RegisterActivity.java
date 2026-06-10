@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
+
 import androidx.appcompat.app.AppCompatActivity;
 
 public class RegisterActivity extends AppCompatActivity {
@@ -23,7 +24,7 @@ public class RegisterActivity extends AppCompatActivity {
 
         btnRegister.setOnClickListener(v -> {
             String name = etName.getText().toString().trim();
-            String email = etEmail.getText().toString().trim();
+            String email = etEmail.getText().toString().trim();//
             String password = etPassword.getText().toString().trim();
 
             // 1. Проверка на пустоту
